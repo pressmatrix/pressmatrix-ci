@@ -1,7 +1,10 @@
 require 'spec_helper'
 
 describe Pressmatrix::Ci do
-  it 'initializes correctly' do
-    expect( true ).to be true
+
+  describe 'foo' do
+    it 'returns bar' do
+      expect( Pressmatrix::Ci.foo ).to eq('bar')
+    end
   end
 end
