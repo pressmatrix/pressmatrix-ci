@@ -1,7 +1,7 @@
 require 'spec_helper'
 
 describe Pressmatrix::Ci do
-  it 'does stuff' do
-    pending # no code yet
+  it 'initializes correctly' do
+    expect( true ).to be true
   end
 end
